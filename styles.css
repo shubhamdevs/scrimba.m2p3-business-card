@@ -1,5 +1,6 @@
 body {
     margin: 20px;
+    font-family: serif;
 }
 
 .img {
@@ -8,6 +9,17 @@ body {
 }
 
 .card {
-    border: 1px dotted blue;
+    width: 400px;
+    border-bottom: 5px solid #d8cefe;
     padding: 20px 20px 20px 20px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    text-align: center;
+    background-color: #ddebf8;
+    color: #2b2839;
+}
+
+.card:hover {
+    cursor: progress;
 }
